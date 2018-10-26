@@ -1,0 +1,12 @@
+---
+- gce:
+    instance_names: "{{server_name}}"
+    zone: asia-southeast1-b
+    machine_type: f1-micro
+    image: debian-8
+    state: present
+    service_account_email: "{{service_account}}"
+    credentials_file: "{{json_file}}"
+    project_id: "{{project_name}}"
+    disk_size: 32
+  register: gce_instance
