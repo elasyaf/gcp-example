@@ -12,15 +12,15 @@ Requirements
 Role Variables
 --------------
 
-server_name = for instance name
-service_account = your service account
-credentials_file = file path to json file for auth
-project_id = project id
+- server_name = for instance name
+- service_account = your service account
+- json_file = file path to json file for auth
+- project_name = project id
 
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+None
 
 Example Playbook
 ----------------
